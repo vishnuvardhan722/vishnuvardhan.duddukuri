@@ -1,52 +1,50 @@
-@media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+/* Mobile - up to 480px */
+@media screen and (max-width: 480px) {
+  #contact,
+  footer {
+    height: 50vh;
   }
-  .about-containers {
+  #profile {
+    height: auto;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 0.9rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
     flex-wrap: wrap;
   }
-  #contact,
-  #projects {
-    height: fit-content;
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
   }
-}
-
-@media screen and (max-width: 1200px) {
-  #desktop-nav {
-    display: none;
+  .logo {
+    font-size: 1.3rem;
   }
-  #hamburger-nav {
-    display: flex;
-  }
-  #experience,
-  .experience-details-container {
-    margin-top: 2rem;
-  }
-  #profile,
-  .section-container {
-    display: block;
-  }
-  .arrow {
-    display: none;
-  }
-  section,
-  .section-container {
-    height: fit-content;
-  }
-  section {
-    margin: 0 5%;
+  .experience-sub-title {
+    font-size: 1rem;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
   }
-  .about-containers {
-    margin-top: 0;
+  .title {
+    font-size: 1.8rem;
+  }
+  .text-container {
+    text-align: justify;
   }
 }
 
+/* Mobile/Small tablets - 481px to 600px */
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -99,5 +97,92 @@
   }
   .text-container {
     text-align: justify;
+  }
+}
+
+/* Mobile/Tablets - 601px to 768px */
+@media screen and (max-width: 768px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+/* Mobile/Desktop Transition - 769px to 1400px */
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+/* Desktop Optimizations - 1200px and larger */
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
   }
 }
