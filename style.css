@@ -326,13 +326,13 @@ section {
 /* EXPERIENCE SECTION */
 
 #experience {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   position: relative;
-  padding:5px;
+  padding:auto;
   
-  margin-bottom: -1rem;
+  margin-bottom: -10rem;
   
-  padding-top: 50px;
+  padding-top: 10px;
   
   
 }
