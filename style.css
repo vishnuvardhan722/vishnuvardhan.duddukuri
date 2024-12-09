@@ -265,30 +265,22 @@ section {
 
 #about {
   position: relative;
-  padding-top: 5px;
-  padding-bottom: 0px;
- 
 }
 
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
- 
-  padding-top: 25px;
 }
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-  padding-bottom:0px;
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
-  
-  padding-bottom: 10px;
 }
 
 .about-pic {
@@ -312,9 +304,8 @@ section {
 }
 
 .section-container {
-  gap: 2rem;
+  gap: 4rem;
   height: 80%;
-  padding-bottom: 10px;
 }
 
 .section__pic-container {
@@ -326,15 +317,7 @@ section {
 /* EXPERIENCE SECTION */
 
 #experience {
-  padding-bottom: 0px;
   position: relative;
-  padding:auto;
-  
-  margin-bottom: -10rem;
-  
-  padding-top: 10px;
-  
-  
 }
 
 .experience-sub-title {
@@ -347,49 +330,76 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
-  padding :1px;
-  padding-top: 0px;
-  padding-bottom:1px;
   flex-direction: column;
 }
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: Middle;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2rem;
-  padding-top: 2px;
- 
-  
+  gap: 2.5rem;
   justify-content: space-around;
 }
 
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: start;
   gap: 0.5rem;
-  padding-top:5px;
-  
 }
 
 article .icon {
   cursor: default;
 }
 
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+  /* Set a thinner border */
+
+  padding: 0px; /* Reduce the inner padding to bring content closer to the border */
+  max-width: 70%; 
+  justify-content: center;
+
+  border-radius: 8px;
+  box-sizing: border-box;
+  
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  width: auto;
+  padding: auto;
+  border-radius:none;
+  
+}
+
+.project-img {
+  border-radius: 8px;
+  width: 50%;
+  height: auto;
+}
+
+.project-title {
+  margin: 0.5rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
 
 /* CONTACT */
 
 #contact {
-  margin-top: 0rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 1vh;
-  padding-top: 1px;
-  padding-bottom: 2px;
-
+  height: 30vh;
 }
 
 .contact-info-upper-container {
