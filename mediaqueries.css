@@ -117,18 +117,6 @@
   .list-container li span {
     font-size: 0.9rem;
   }
-  .article-container {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items */
-    gap: 1rem; /* Reduce gap */
-  }
-
-  article {
-    width: 100%; /* Take full width */
-    max-width: 20rem; /* Set a max-width to control the size */
-    justify-content: center; /* Center content */
-    padding-top: 2px; /* Adjust padding */
-  }
 }
 
 /* Desktop - 769px to 1400px */

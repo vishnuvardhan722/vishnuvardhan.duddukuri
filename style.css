@@ -360,6 +360,8 @@ section {
   flex-direction: row;
   gap: 2rem;
   padding-top: 2px;
+ 
+  
   justify-content: space-around;
 }
 
